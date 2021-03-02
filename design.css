@@ -1,0 +1,25 @@
+body{
+    background-color:rgba(185, 241, 255, 0.651);
+}
+
+a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    color:black;
+
+}
+
+.prompt{
+    display:block;
+    font-size:35px;
+    color: sienna;
+}
+
+/*PSEUDO SELECTOR */
+a:hover{
+    background-color:coral;
+    color: slategray;
+    transition: .8s;
+    width: 300px;
+}
